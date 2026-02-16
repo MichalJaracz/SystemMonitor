@@ -1,0 +1,14 @@
+[
+{
+  "directory": "V:/CPP/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -o CMakeFiles\\Aplikacja.dir\\src\\main.cpp.obj -c V:\\CPP\\SystemMonitor\\src\\main.cpp",
+  "file": "V:/CPP/SystemMonitor/src/main.cpp",
+  "output": "CMakeFiles/Aplikacja.dir/src/main.cpp.obj"
+},
+{
+  "directory": "V:/CPP/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -o CMakeFiles\\Aplikacja.dir\\src\\WindowsMonitor.cpp.obj -c V:\\CPP\\SystemMonitor\\src\\WindowsMonitor.cpp",
+  "file": "V:/CPP/SystemMonitor/src/WindowsMonitor.cpp",
+  "output": "CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj"
+}
+]

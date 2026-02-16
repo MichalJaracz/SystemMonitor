@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"V:/CPP/SystemMonitor/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
