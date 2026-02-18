@@ -1,7 +1,7 @@
 CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj: \
- V:\CPP\SystemMonitor\src\WindowsMonitor.cpp \
- V:/CPP/SystemMonitor/include/WindowsMonitor.h \
- V:/CPP/SystemMonitor/include/ISystemMonitor.h \
+ S:\ProjectsVS\SystemMonitor\src\WindowsMonitor.cpp \
+ S:/ProjectsVS/SystemMonitor/include/WindowsMonitor.h \
+ S:/ProjectsVS/SystemMonitor/include/ISystemMonitor.h \
  C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/_mingw.h \
  C:/msys64/ucrt64/include/_mingw_mac.h \
  C:/msys64/ucrt64/include/_mingw_secapi.h \

@@ -29,19 +29,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
       - "/REGISTRY-NOTFOUND/bin/"
       - "c:/MinGW/bin/"
       - "/MinGW/bin/"
@@ -55,21 +60,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -101,21 +111,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "message-v1"
     backtrace:
@@ -136,7 +151,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        V:/CPP/SystemMonitor/build/CMakeFiles/4.2.3/CompilerIdCXX/a.exe
+        S:/ProjectsVS/SystemMonitor/build/CMakeFiles/4.2.3/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -160,19 +175,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ar.com"
     found: "C:/msys64/ucrt64/bin/ar.exe"
@@ -182,21 +202,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -219,19 +244,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ranlib.com"
     found: "C:/msys64/ucrt64/bin/ranlib.exe"
@@ -241,21 +271,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -278,19 +313,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/strip.com"
     found: "C:/msys64/ucrt64/bin/strip.exe"
@@ -300,21 +340,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -337,19 +382,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/ld.com"
     found: "C:/msys64/ucrt64/bin/ld.exe"
@@ -359,21 +409,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -396,19 +451,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/nm.com"
     found: "C:/msys64/ucrt64/bin/nm.exe"
@@ -418,21 +478,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -455,19 +520,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objdump.com"
     found: "C:/msys64/ucrt64/bin/objdump.exe"
@@ -477,21 +547,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -514,19 +589,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/objcopy.com"
     found: "C:/msys64/ucrt64/bin/objcopy.exe"
@@ -536,21 +616,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -573,19 +658,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/readelf.com"
     found: "C:/msys64/ucrt64/bin/readelf.exe"
@@ -595,21 +685,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -632,19 +727,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/dlltool.com"
     found: "C:/msys64/ucrt64/bin/dlltool.exe"
@@ -654,21 +754,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -691,19 +796,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/addr2line.com"
     found: "C:/msys64/ucrt64/bin/addr2line.exe"
@@ -713,21 +823,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -750,19 +865,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/tapi.com"
       - "C:/msys64/ucrt64/bin/tapi.exe"
@@ -770,6 +890,12 @@ events:
       - "C:/msys64/usr/bin/tapi.com"
       - "C:/msys64/usr/bin/tapi.exe"
       - "C:/msys64/usr/bin/tapi"
+      - "C:/Program Files/Microsoft MPI/Bin/tapi.com"
+      - "C:/Program Files/Microsoft MPI/Bin/tapi.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/tapi"
+      - "C:/SIMULIA/Commands/tapi.com"
+      - "C:/SIMULIA/Commands/tapi.exe"
+      - "C:/SIMULIA/Commands/tapi"
       - "C:/Windows/System32/tapi.com"
       - "C:/Windows/System32/tapi.exe"
       - "C:/Windows/System32/tapi"
@@ -785,30 +911,39 @@ events:
       - "C:/Windows/System32/OpenSSH/tapi.com"
       - "C:/Windows/System32/OpenSSH/tapi.exe"
       - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
       - "C:/Program Files/nodejs/tapi.com"
       - "C:/Program Files/nodejs/tapi.exe"
       - "C:/Program Files/nodejs/tapi"
       - "C:/Program Files/Git/cmd/tapi.com"
       - "C:/Program Files/Git/cmd/tapi.exe"
       - "C:/Program Files/Git/cmd/tapi"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
-      - "C:/Program Files/dotnet/tapi.com"
-      - "C:/Program Files/dotnet/tapi.exe"
-      - "C:/Program Files/dotnet/tapi"
       - "C:/Program Files/CMake/bin/tapi.com"
       - "C:/Program Files/CMake/bin/tapi.exe"
       - "C:/Program Files/CMake/bin/tapi"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/tapi.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/tapi.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/tapi"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/tapi.com"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/tapi.exe"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/tapi"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/micha/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/micha/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/tapi"
+      - "C:/Users/micha/AppData/Local/Python/bin/tapi.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/tapi.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/tapi"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/tapi.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/tapi.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/tapi"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/tapi.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/tapi.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/tapi"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/tapi.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/tapi.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/tapi"
     found: false
     search_context:
       ENV{PATH}:
@@ -816,21 +951,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -856,19 +996,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ar-15.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-15.2.exe"
@@ -876,6 +1021,12 @@ events:
       - "C:/msys64/usr/bin/gcc-ar-15.2.com"
       - "C:/msys64/usr/bin/gcc-ar-15.2.exe"
       - "C:/msys64/usr/bin/gcc-ar-15.2"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.2.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.2"
+      - "C:/SIMULIA/Commands/gcc-ar-15.2.com"
+      - "C:/SIMULIA/Commands/gcc-ar-15.2.exe"
+      - "C:/SIMULIA/Commands/gcc-ar-15.2"
       - "C:/Windows/System32/gcc-ar-15.2.com"
       - "C:/Windows/System32/gcc-ar-15.2.exe"
       - "C:/Windows/System32/gcc-ar-15.2"
@@ -891,36 +1042,51 @@ events:
       - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
       - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
       - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
       - "C:/Program Files/nodejs/gcc-ar-15.2.com"
       - "C:/Program Files/nodejs/gcc-ar-15.2.exe"
       - "C:/Program Files/nodejs/gcc-ar-15.2"
       - "C:/Program Files/Git/cmd/gcc-ar-15.2.com"
       - "C:/Program Files/Git/cmd/gcc-ar-15.2.exe"
       - "C:/Program Files/Git/cmd/gcc-ar-15.2"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
-      - "C:/Program Files/dotnet/gcc-ar-15.2.com"
-      - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
-      - "C:/Program Files/dotnet/gcc-ar-15.2"
       - "C:/Program Files/CMake/bin/gcc-ar-15.2.com"
       - "C:/Program Files/CMake/bin/gcc-ar-15.2.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-15.2"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ar-15.2.com"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ar-15.2.exe"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.2"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.2.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.2.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.2"
       - "C:/msys64/ucrt64/bin/gcc-ar-15.com"
       - "C:/msys64/ucrt64/bin/gcc-ar-15.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar-15"
       - "C:/msys64/usr/bin/gcc-ar-15.com"
       - "C:/msys64/usr/bin/gcc-ar-15.exe"
       - "C:/msys64/usr/bin/gcc-ar-15"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15"
+      - "C:/SIMULIA/Commands/gcc-ar-15.com"
+      - "C:/SIMULIA/Commands/gcc-ar-15.exe"
+      - "C:/SIMULIA/Commands/gcc-ar-15"
       - "C:/Windows/System32/gcc-ar-15.com"
       - "C:/Windows/System32/gcc-ar-15.exe"
       - "C:/Windows/System32/gcc-ar-15"
@@ -936,36 +1102,51 @@ events:
       - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
       - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
       - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15"
       - "C:/Program Files/nodejs/gcc-ar-15.com"
       - "C:/Program Files/nodejs/gcc-ar-15.exe"
       - "C:/Program Files/nodejs/gcc-ar-15"
       - "C:/Program Files/Git/cmd/gcc-ar-15.com"
       - "C:/Program Files/Git/cmd/gcc-ar-15.exe"
       - "C:/Program Files/Git/cmd/gcc-ar-15"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15"
-      - "C:/Program Files/dotnet/gcc-ar-15.com"
-      - "C:/Program Files/dotnet/gcc-ar-15.exe"
-      - "C:/Program Files/dotnet/gcc-ar-15"
       - "C:/Program Files/CMake/bin/gcc-ar-15.com"
       - "C:/Program Files/CMake/bin/gcc-ar-15.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-15"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ar-15.com"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ar-15.exe"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15"
       - "C:/msys64/ucrt64/bin/gcc-ar15.com"
       - "C:/msys64/ucrt64/bin/gcc-ar15.exe"
       - "C:/msys64/ucrt64/bin/gcc-ar15"
       - "C:/msys64/usr/bin/gcc-ar15.com"
       - "C:/msys64/usr/bin/gcc-ar15.exe"
       - "C:/msys64/usr/bin/gcc-ar15"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar15.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar15.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar15"
+      - "C:/SIMULIA/Commands/gcc-ar15.com"
+      - "C:/SIMULIA/Commands/gcc-ar15.exe"
+      - "C:/SIMULIA/Commands/gcc-ar15"
       - "C:/Windows/System32/gcc-ar15.com"
       - "C:/Windows/System32/gcc-ar15.exe"
       - "C:/Windows/System32/gcc-ar15"
@@ -981,30 +1162,39 @@ events:
       - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
       - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
       - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15"
       - "C:/Program Files/nodejs/gcc-ar15.com"
       - "C:/Program Files/nodejs/gcc-ar15.exe"
       - "C:/Program Files/nodejs/gcc-ar15"
       - "C:/Program Files/Git/cmd/gcc-ar15.com"
       - "C:/Program Files/Git/cmd/gcc-ar15.exe"
       - "C:/Program Files/Git/cmd/gcc-ar15"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15"
-      - "C:/Program Files/dotnet/gcc-ar15.com"
-      - "C:/Program Files/dotnet/gcc-ar15.exe"
-      - "C:/Program Files/dotnet/gcc-ar15"
       - "C:/Program Files/CMake/bin/gcc-ar15.com"
       - "C:/Program Files/CMake/bin/gcc-ar15.exe"
       - "C:/Program Files/CMake/bin/gcc-ar15"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ar15.com"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ar15.exe"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar15"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar15.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar15.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar15"
       - "C:/msys64/ucrt64/bin/gcc-ar.com"
     found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
     search_context:
@@ -1013,21 +1203,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1053,19 +1248,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/gcc-ranlib-15.2.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-15.2.exe"
@@ -1073,6 +1273,12 @@ events:
       - "C:/msys64/usr/bin/gcc-ranlib-15.2.com"
       - "C:/msys64/usr/bin/gcc-ranlib-15.2.exe"
       - "C:/msys64/usr/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.2"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.2.com"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.2.exe"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.2"
       - "C:/Windows/System32/gcc-ranlib-15.2.com"
       - "C:/Windows/System32/gcc-ranlib-15.2.exe"
       - "C:/Windows/System32/gcc-ranlib-15.2"
@@ -1088,36 +1294,51 @@ events:
       - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
       - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
       - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
       - "C:/Program Files/nodejs/gcc-ranlib-15.2.com"
       - "C:/Program Files/nodejs/gcc-ranlib-15.2.exe"
       - "C:/Program Files/nodejs/gcc-ranlib-15.2"
       - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.com"
       - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.exe"
       - "C:/Program Files/Git/cmd/gcc-ranlib-15.2"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
-      - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
-      - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
-      - "C:/Program Files/dotnet/gcc-ranlib-15.2"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.2"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ranlib-15.2.com"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ranlib-15.2.exe"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.2"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.2"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-15.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-15.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib-15"
       - "C:/msys64/usr/bin/gcc-ranlib-15.com"
       - "C:/msys64/usr/bin/gcc-ranlib-15.exe"
       - "C:/msys64/usr/bin/gcc-ranlib-15"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.com"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.exe"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15"
       - "C:/Windows/System32/gcc-ranlib-15.com"
       - "C:/Windows/System32/gcc-ranlib-15.exe"
       - "C:/Windows/System32/gcc-ranlib-15"
@@ -1133,36 +1354,51 @@ events:
       - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
       - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
       - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15"
       - "C:/Program Files/nodejs/gcc-ranlib-15.com"
       - "C:/Program Files/nodejs/gcc-ranlib-15.exe"
       - "C:/Program Files/nodejs/gcc-ranlib-15"
       - "C:/Program Files/Git/cmd/gcc-ranlib-15.com"
       - "C:/Program Files/Git/cmd/gcc-ranlib-15.exe"
       - "C:/Program Files/Git/cmd/gcc-ranlib-15"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15"
-      - "C:/Program Files/dotnet/gcc-ranlib-15.com"
-      - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
-      - "C:/Program Files/dotnet/gcc-ranlib-15"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ranlib-15.com"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ranlib-15.exe"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15"
       - "C:/msys64/ucrt64/bin/gcc-ranlib15.com"
       - "C:/msys64/ucrt64/bin/gcc-ranlib15.exe"
       - "C:/msys64/ucrt64/bin/gcc-ranlib15"
       - "C:/msys64/usr/bin/gcc-ranlib15.com"
       - "C:/msys64/usr/bin/gcc-ranlib15.exe"
       - "C:/msys64/usr/bin/gcc-ranlib15"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib15.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib15.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib15"
+      - "C:/SIMULIA/Commands/gcc-ranlib15.com"
+      - "C:/SIMULIA/Commands/gcc-ranlib15.exe"
+      - "C:/SIMULIA/Commands/gcc-ranlib15"
       - "C:/Windows/System32/gcc-ranlib15.com"
       - "C:/Windows/System32/gcc-ranlib15.exe"
       - "C:/Windows/System32/gcc-ranlib15"
@@ -1178,30 +1414,39 @@ events:
       - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
       - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
       - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15"
       - "C:/Program Files/nodejs/gcc-ranlib15.com"
       - "C:/Program Files/nodejs/gcc-ranlib15.exe"
       - "C:/Program Files/nodejs/gcc-ranlib15"
       - "C:/Program Files/Git/cmd/gcc-ranlib15.com"
       - "C:/Program Files/Git/cmd/gcc-ranlib15.exe"
       - "C:/Program Files/Git/cmd/gcc-ranlib15"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.com"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.exe"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15"
-      - "C:/Program Files/dotnet/gcc-ranlib15.com"
-      - "C:/Program Files/dotnet/gcc-ranlib15.exe"
-      - "C:/Program Files/dotnet/gcc-ranlib15"
       - "C:/Program Files/CMake/bin/gcc-ranlib15.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib15.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib15"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.com"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.exe"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ranlib15.com"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ranlib15.exe"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib15"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib15.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib15.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib15"
       - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
     found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
     search_context:
@@ -1210,21 +1455,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
   -
     kind: "find-v1"
     backtrace:
@@ -1250,19 +1500,24 @@ events:
     candidate_directories:
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
       - "C:/Windows/System32/wbem/"
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Program Files/nodejs/"
       - "C:/Program Files/Git/cmd/"
-      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
-      - "C:/Program Files/dotnet/"
       - "C:/Program Files/CMake/bin/"
-      - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps/"
-      - "C:/Users/Micha\u0142/AppData/Local/Programs/Microsoft VS Code/bin/"
-      - "C:/Users/Micha\u0142/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
       - "C:/msys64/ucrt64/bin/"
       - "C:/msys64/ucrt64/sbin/"
       - "C:/msys64/ucrt64/"
@@ -1287,21 +1542,26 @@ events:
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\ucrt64\\bin"
         - "C:\\msys64\\usr\\bin"
-        - "C:/WINDOWS/system32"
-        - "C:\\WINDOWS"
-        - "C:/WINDOWS/System32/Wbem"
-        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
-        - "C:/WINDOWS/System32/OpenSSH/"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
-        - "C:/Program Files/dotnet/"
-        - "C:\\Program Files\\CMake\\bin"
-        - "C:/Users/Micha\u0142/AppData/Local/Microsoft/WindowsApps"
-        - "C:\\Users\\Micha\u0142\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
-        - "C:/Users/Micha\u0142/AppData/Roaming/npm"
-        - "C:\\Program Files\\nodejs\\"
-        - "C:/msys64/ucrt64/bin"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
       CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MojProjekt"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
@@ -1318,8 +1578,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "V:/CPP/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-jmc2ld"
-      binary: "V:/CPP/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-jmc2ld"
+      source: "S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-f5lim4"
+      binary: "S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-f5lim4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1329,13 +1589,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'V:/CPP/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-jmc2ld'
+        Change Dir: 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-f5lim4'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_66835/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_66835.dir\\build.make CMakeFiles/cmTC_66835.dir/build
-        mingw32-make[1]: Entering directory 'V:/CPP/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-jmc2ld'
-        Building CXX object CMakeFiles/cmTC_66835.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_78582/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_78582.dir\\build.make CMakeFiles/cmTC_78582.dir/build
+        mingw32-make[1]: Entering directory 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-f5lim4'
+        Building CXX object CMakeFiles/cmTC_78582.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -1343,8 +1603,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_66835.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_66835.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\MICHA~1\\AppData\\Local\\Temp\\ccgd3ke7.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_78582.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_78582.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\micha\\AppData\\Local\\Temp\\cclp5ncA.s
         GNU C++17 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -1369,14 +1629,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_66835.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\MICHA~1\\AppData\\Local\\Temp\\ccgd3ke7.s
-        GNU assembler version 2.45.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45.1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_78582.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\micha\\AppData\\Local\\Temp\\cclp5ncA.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_66835.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_66835.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_78582.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_78582.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -1387,16 +1647,16 @@ events:
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66835.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_66835.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MICHA~1\\AppData\\Local\\Temp\\ccB7sTrf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_66835.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_66835.dir/objects.a --no-whole-archive --out-implib libcmTC_66835.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78582.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_78582.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccYCRTIg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_78582.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_78582.dir/objects.a --no-whole-archive --out-implib libcmTC_78582.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MICHA~1\\AppData\\Local\\Temp\\ccB7sTrf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_66835.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_66835.dir/objects.a --no-whole-archive --out-implib libcmTC_66835.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
-        GNU ld (GNU Binutils) 2.45.1
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66835.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_66835.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_66835.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_66835.dir/objects.a @CMakeFiles\\cmTC_66835.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_66835.dir/objects.a -Wl,--no-whole-archive -o cmTC_66835.exe -Wl,--out-implib,libcmTC_66835.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'V:/CPP/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-jmc2ld'
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccYCRTIg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_78582.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_78582.dir/objects.a --no-whole-archive --out-implib libcmTC_78582.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78582.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_78582.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_78582.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_78582.dir/objects.a @CMakeFiles\\cmTC_78582.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_78582.dir/objects.a -Wl,--no-whole-archive -o cmTC_78582.exe -Wl,--out-implib,libcmTC_78582.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-f5lim4'
         
       exitCode: 0
   -
@@ -1435,13 +1695,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'V:/CPP/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-jmc2ld']
+        ignore line: [Change Dir: 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-f5lim4']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_66835/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_66835.dir\\build.make CMakeFiles/cmTC_66835.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'V:/CPP/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-jmc2ld']
-        ignore line: [Building CXX object CMakeFiles/cmTC_66835.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_78582/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_78582.dir\\build.make CMakeFiles/cmTC_78582.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-f5lim4']
+        ignore line: [Building CXX object CMakeFiles/cmTC_78582.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -1449,8 +1709,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_66835.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_66835.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\MICHA~1\\AppData\\Local\\Temp\\ccgd3ke7.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_78582.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_78582.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\micha\\AppData\\Local\\Temp\\cclp5ncA.s]
         ignore line: [GNU C++17 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1475,9 +1735,9 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_66835.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\MICHA~1\\AppData\\Local\\Temp\\ccgd3ke7.s]
-        ignore line: [GNU assembler version 2.45.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45.1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_78582.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\micha\\AppData\\Local\\Temp\\cclp5ncA.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
@@ -1487,9 +1747,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_66835.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_66835.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_66835.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_78582.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_78582.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_78582.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -1507,13 +1767,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_66835.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_66835.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MICHA~1\\AppData\\Local\\Temp\\ccB7sTrf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_66835.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_66835.dir/objects.a --no-whole-archive --out-implib libcmTC_66835.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_78582.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_78582.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccYCRTIg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_78582.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_78582.dir/objects.a --no-whole-archive --out-implib libcmTC_78582.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\MICHA~1\\AppData\\Local\\Temp\\ccB7sTrf.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccYCRTIg.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -1535,7 +1795,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_66835.exe] ==> ignore
+          arg [cmTC_78582.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -1546,10 +1806,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_66835.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_78582.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_66835.dll.a] ==> ignore
+          arg [libcmTC_78582.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1575,7 +1835,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\MICHA~1\\AppData\\Local\\Temp\\ccB7sTrf.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_66835.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_66835.dir/objects.a --no-whole-archive --out-implib libcmTC_66835.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccYCRTIg.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_78582.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_78582.dir/objects.a --no-whole-archive --out-implib libcmTC_78582.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -1604,5 +1864,994 @@ events:
       - "CMakeLists.txt:5 (project)"
     message: |
       Running the CXX compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
-      GNU ld (GNU Binutils) 2.45.1
+      GNU ld (GNU Binutils) 2.45
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/"
+    found: "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MojProjekt"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/msys64/ucrt64/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        S:/ProjectsVS/SystemMonitor/build/CMakeFiles/4.2.3/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.2.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.2.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.2"
+      - "C:/msys64/usr/bin/gcc-ar-15.2.com"
+      - "C:/msys64/usr/bin/gcc-ar-15.2.exe"
+      - "C:/msys64/usr/bin/gcc-ar-15.2"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.2.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.2"
+      - "C:/SIMULIA/Commands/gcc-ar-15.2.com"
+      - "C:/SIMULIA/Commands/gcc-ar-15.2.exe"
+      - "C:/SIMULIA/Commands/gcc-ar-15.2"
+      - "C:/Windows/System32/gcc-ar-15.2.com"
+      - "C:/Windows/System32/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/gcc-ar-15.2"
+      - "C:/Windows/gcc-ar-15.2.com"
+      - "C:/Windows/gcc-ar-15.2.exe"
+      - "C:/Windows/gcc-ar-15.2"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
+      - "C:/Program Files/nodejs/gcc-ar-15.2.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.2.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15.2"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.2"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.2.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.2.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.2"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.2"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar-15"
+      - "C:/msys64/usr/bin/gcc-ar-15.com"
+      - "C:/msys64/usr/bin/gcc-ar-15.exe"
+      - "C:/msys64/usr/bin/gcc-ar-15"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar-15"
+      - "C:/SIMULIA/Commands/gcc-ar-15.com"
+      - "C:/SIMULIA/Commands/gcc-ar-15.exe"
+      - "C:/SIMULIA/Commands/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15"
+      - "C:/Program Files/nodejs/gcc-ar-15.com"
+      - "C:/Program Files/nodejs/gcc-ar-15.exe"
+      - "C:/Program Files/nodejs/gcc-ar-15"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar-15"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-15"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar-15"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar-15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar-15"
+      - "C:/msys64/ucrt64/bin/gcc-ar15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ar15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ar15"
+      - "C:/msys64/usr/bin/gcc-ar15.com"
+      - "C:/msys64/usr/bin/gcc-ar15.exe"
+      - "C:/msys64/usr/bin/gcc-ar15"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar15.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar15.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ar15"
+      - "C:/SIMULIA/Commands/gcc-ar15.com"
+      - "C:/SIMULIA/Commands/gcc-ar15.exe"
+      - "C:/SIMULIA/Commands/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15"
+      - "C:/Program Files/nodejs/gcc-ar15.com"
+      - "C:/Program Files/nodejs/gcc-ar15.exe"
+      - "C:/Program Files/nodejs/gcc-ar15"
+      - "C:/Program Files/Git/cmd/gcc-ar15.com"
+      - "C:/Program Files/Git/cmd/gcc-ar15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ar15"
+      - "C:/Program Files/CMake/bin/gcc-ar15.com"
+      - "C:/Program Files/CMake/bin/gcc-ar15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar15"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ar15"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar15.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar15.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ar15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ar15"
+      - "C:/msys64/ucrt64/bin/gcc-ar.com"
+    found: "C:/msys64/ucrt64/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MojProjekt"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:5 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Program Files/Microsoft MPI/Bin/"
+      - "C:/SIMULIA/Commands/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/micha/AppData/Roaming/npm/"
+      - "C:/Users/micha/AppData/Local/Python/bin/"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.2.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.2.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.2"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.2.com"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.2.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.2"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.2.com"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.2.exe"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.2"
+      - "C:/Windows/System32/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.2"
+      - "C:/Windows/gcc-ranlib-15.2.com"
+      - "C:/Windows/gcc-ranlib-15.2.exe"
+      - "C:/Windows/gcc-ranlib-15.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.2"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.2"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.2"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.2"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.2.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.2.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.2"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib-15"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.com"
+      - "C:/msys64/usr/bin/gcc-ranlib-15.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib-15"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib-15"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.com"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15.exe"
+      - "C:/SIMULIA/Commands/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib-15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib-15"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib-15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib-15"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib15.com"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib15.exe"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib15"
+      - "C:/msys64/usr/bin/gcc-ranlib15.com"
+      - "C:/msys64/usr/bin/gcc-ranlib15.exe"
+      - "C:/msys64/usr/bin/gcc-ranlib15"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib15.com"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib15.exe"
+      - "C:/Program Files/Microsoft MPI/Bin/gcc-ranlib15"
+      - "C:/SIMULIA/Commands/gcc-ranlib15.com"
+      - "C:/SIMULIA/Commands/gcc-ranlib15.exe"
+      - "C:/SIMULIA/Commands/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15"
+      - "C:/Program Files/nodejs/gcc-ranlib15.com"
+      - "C:/Program Files/nodejs/gcc-ranlib15.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib15"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.com"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15.exe"
+      - "C:/Program Files/Git/cmd/gcc-ranlib15"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.com"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/CMake/bin/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Roaming/npm/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Python/bin/gcc-ranlib15"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib15.com"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib15.exe"
+      - "C:/Users/micha/.jdks/openjdk-25.0.1/bin/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/gcc-ranlib15"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib15.com"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib15.exe"
+      - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/gcc-ranlib15"
+      - "C:/msys64/ucrt64/bin/gcc-ranlib.com"
+    found: "C:/msys64/ucrt64/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MojProjekt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-0sbwx6"
+      binary: "S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-0sbwx6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-0sbwx6'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_50e4f/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_50e4f.dir\\build.make CMakeFiles/cmTC_50e4f.dir/build
+        mingw32-make[1]: Entering directory 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-0sbwx6'
+        Building C object CMakeFiles/cmTC_50e4f.dir/CMakeCCompilerABI.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev8, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_50e4f.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_50e4f.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\micha\\AppData\\Local\\Temp\\ccmUcKli.s
+        GNU C23 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "D:/M/msys64/ucrt64/include"
+        ignoring nonexistent directory "/ucrt64/include"
+        ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"
+        ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/M/msys64/ucrt64/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
+        End of search list.
+        Compiler executable checksum: f68563dd6aebdc6b84233a210e98d3c3
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_50e4f.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj C:\\Users\\micha\\AppData\\Local\\Temp\\ccmUcKli.s
+        GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_50e4f.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_50e4f.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-15.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev8, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
+        COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50e4f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_50e4f.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccqqpdcB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_50e4f.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_50e4f.dir/objects.a --no-whole-archive --out-implib libcmTC_50e4f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccqqpdcB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_50e4f.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_50e4f.dir/objects.a --no-whole-archive --out-implib libcmTC_50e4f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50e4f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_50e4f.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_50e4f.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_50e4f.dir/objects.a @CMakeFiles\\cmTC_50e4f.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_50e4f.dir/objects.a -Wl,--no-whole-archive -o cmTC_50e4f.exe -Wl,--out-implib,libcmTC_50e4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-0sbwx6'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+          add: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        end of search list found
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include] ==> [C:/msys64/ucrt64/include]
+        collapse include dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        implicit include dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include;C:/msys64/ucrt64/include;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-0sbwx6']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_50e4f/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_50e4f.dir\\build.make CMakeFiles/cmTC_50e4f.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-0sbwx6']
+        ignore line: [Building C object CMakeFiles/cmTC_50e4f.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev8, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_50e4f.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_50e4f.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -o C:\\Users\\micha\\AppData\\Local\\Temp\\ccmUcKli.s]
+        ignore line: [GNU C23 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "D:/M/msys64/ucrt64/include"]
+        ignore line: [ignoring nonexistent directory "/ucrt64/include"]
+        ignore line: [ignoring duplicate directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "C:/msys64/ucrt64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/M/msys64/ucrt64/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../include]
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: f68563dd6aebdc6b84233a210e98d3c3]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_50e4f.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj C:\\Users\\micha\\AppData\\Local\\Temp\\ccmUcKli.s]
+        ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_50e4f.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_50e4f.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_50e4f.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-15.2.0/configure --prefix=/ucrt64 --with-local-prefix=/ucrt64/local --with-native-system-header-dir=/ucrt64/include --libexecdir=/ucrt64/lib --enable-bootstrap --enable-checking=release --with-arch=nocona --with-tune=generic --enable-mingw-wildcard --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-backtrace=yes --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --disable-libstdcxx-pch --enable-lto --enable-libgomp --disable-libssp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/ucrt64 --with-mpfr=/ucrt64 --with-mpc=/ucrt64 --with-isl=/ucrt64 --with-pkgversion='Rev8, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-libstdcxx-zoneinfo=yes --disable-libstdcxx-debug --enable-plugin --with-boot-ldflags=-static-libstdc++ --with-stage1-ldflags=-static-libstdc++]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_50e4f.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_50e4f.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccqqpdcB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_50e4f.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_50e4f.dir/objects.a --no-whole-archive --out-implib libcmTC_50e4f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccqqpdcB.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_50e4f.exe] ==> ignore
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_50e4f.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_50e4f.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
+          arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [collect2 version 15.2.0]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\micha\\AppData\\Local\\Temp\\ccqqpdcB.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_50e4f.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_50e4f.dir/objects.a --no-whole-archive --out-implib libcmTC_50e4f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'C': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> [C:/msys64/ucrt64/lib/crt2.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> [C:/msys64/ucrt64/lib/default-manifest.o]
+        collapse obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc] ==> [C:/msys64/ucrt64/lib/gcc]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib] ==> [C:/msys64/ucrt64/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/msys64/ucrt64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> [C:/msys64/ucrt64/lib]
+        implicit libs: [mingw32;gcc;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;mingwex;kernel32]
+        implicit objs: [C:/msys64/ucrt64/lib/crt2.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o;C:/msys64/ucrt64/lib/default-manifest.o;C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0;C:/msys64/ucrt64/lib/gcc;C:/msys64/ucrt64/x86_64-w64-mingw32/lib;C:/msys64/ucrt64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.45
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:93 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindDependencyMacro.cmake:125 (__find_dependency_common)"
+      - "C:/msys64/ucrt64/lib/cmake/glfw3/glfw3Config.cmake:2 (find_dependency)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-oqk3sz"
+      binary: "S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-oqk3sz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-oqk3sz'
+        
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_1a544/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1a544.dir\\build.make CMakeFiles/cmTC_1a544.dir/build
+        mingw32-make[1]: Entering directory 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-oqk3sz'
+        Building C object CMakeFiles/cmTC_1a544.dir/src.c.obj
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_1a544.dir\\src.c.obj -c S:\\ProjectsVS\\SystemMonitor\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqk3sz\\src.c
+        Linking C executable cmTC_1a544.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1a544.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1a544.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_1a544.dir/objects.a @CMakeFiles\\cmTC_1a544.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_1a544.dir/objects.a -Wl,--no-whole-archive -o cmTC_1a544.exe -Wl,--out-implib,libcmTC_1a544.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_1a544.dir\\linkLibs.rsp
+        mingw32-make[1]: Leaving directory 'S:/ProjectsVS/SystemMonitor/build/CMakeFiles/CMakeScratch/TryCompile-oqk3sz'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:12 (find_package)"
+    name: "glfw3"
+    configs:
+      -
+        filename: "glfw3Config.cmake"
+        kind: "cmake"
+      -
+        filename: "glfw3-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glfw3"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "S:/ProjectsVS/SystemMonitor/build/CMakeFiles/pkgRedirects/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "S:/ProjectsVS/SystemMonitor/build/CMakeFiles/pkgRedirects/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/glfw3Config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "C:/msys64/ucrt64/glfw3-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "C:/msys64/ucrt64/lib/cmake/glfw3/glfw3Config.cmake"
+      mode: "config"
+      version: "3.4.0"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/Program Files/Microsoft MPI/Bin/"
+        - "C:\\SIMULIA\\Commands"
+        - "C:/Windows/system32"
+        - "C:\\Windows"
+        - "C:/Windows/System32/Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/Windows/System32/OpenSSH/"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Program Files/nodejs/"
+        - "C:/Program Files/Git/cmd"
+        - "C:/Program Files/CMake/bin"
+        - "C:\\Users\\micha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/micha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\Users\\micha\\AppData\\Roaming\\npm"
+        - "C:/Users/micha/AppData/Local/Python/bin"
+        - "C:\\Users\\micha\\.jdks\\openjdk-25.0.1\\bin"
+        - "C:/Users/micha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+        - "C:\\Users\\micha\\AppData\\Local\\Python\\pythoncore-3.14-64\\"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/MojProjekt"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/MojProjekt"
 ...

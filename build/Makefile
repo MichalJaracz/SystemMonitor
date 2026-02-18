@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = V:\CPP\SystemMonitor
+CMAKE_SOURCE_DIR = S:\ProjectsVS\SystemMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = V:\CPP\SystemMonitor\build
+CMAKE_BINARY_DIR = S:\ProjectsVS\SystemMonitor\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start V:\CPP\SystemMonitor\build\CMakeFiles V:\CPP\SystemMonitor\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start S:\ProjectsVS\SystemMonitor\build\CMakeFiles S:\ProjectsVS\SystemMonitor\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start V:\CPP\SystemMonitor\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start S:\ProjectsVS\SystemMonitor\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -127,6 +127,150 @@ Aplikacja: cmake_check_build_system
 Aplikacja/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/build
 .PHONY : Aplikacja/fast
+
+imgui/imgui.obj: imgui/imgui.cpp.obj
+.PHONY : imgui/imgui.obj
+
+# target to build an object file
+imgui/imgui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj
+.PHONY : imgui/imgui.cpp.obj
+
+imgui/imgui.i: imgui/imgui.cpp.i
+.PHONY : imgui/imgui.i
+
+# target to preprocess a source file
+imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.i
+.PHONY : imgui/imgui.cpp.i
+
+imgui/imgui.s: imgui/imgui.cpp.s
+.PHONY : imgui/imgui.s
+
+# target to generate assembly for a file
+imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.s
+.PHONY : imgui/imgui.cpp.s
+
+imgui/imgui_draw.obj: imgui/imgui_draw.cpp.obj
+.PHONY : imgui/imgui_draw.obj
+
+# target to build an object file
+imgui/imgui_draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj
+.PHONY : imgui/imgui_draw.cpp.obj
+
+imgui/imgui_draw.i: imgui/imgui_draw.cpp.i
+.PHONY : imgui/imgui_draw.i
+
+# target to preprocess a source file
+imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.i
+.PHONY : imgui/imgui_draw.cpp.i
+
+imgui/imgui_draw.s: imgui/imgui_draw.cpp.s
+.PHONY : imgui/imgui_draw.s
+
+# target to generate assembly for a file
+imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.s
+.PHONY : imgui/imgui_draw.cpp.s
+
+imgui/imgui_impl_glfw.obj: imgui/imgui_impl_glfw.cpp.obj
+.PHONY : imgui/imgui_impl_glfw.obj
+
+# target to build an object file
+imgui/imgui_impl_glfw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj
+.PHONY : imgui/imgui_impl_glfw.cpp.obj
+
+imgui/imgui_impl_glfw.i: imgui/imgui_impl_glfw.cpp.i
+.PHONY : imgui/imgui_impl_glfw.i
+
+# target to preprocess a source file
+imgui/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.i
+.PHONY : imgui/imgui_impl_glfw.cpp.i
+
+imgui/imgui_impl_glfw.s: imgui/imgui_impl_glfw.cpp.s
+.PHONY : imgui/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+imgui/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.s
+.PHONY : imgui/imgui_impl_glfw.cpp.s
+
+imgui/imgui_impl_opengl3.obj: imgui/imgui_impl_opengl3.cpp.obj
+.PHONY : imgui/imgui_impl_opengl3.obj
+
+# target to build an object file
+imgui/imgui_impl_opengl3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj
+.PHONY : imgui/imgui_impl_opengl3.cpp.obj
+
+imgui/imgui_impl_opengl3.i: imgui/imgui_impl_opengl3.cpp.i
+.PHONY : imgui/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : imgui/imgui_impl_opengl3.cpp.i
+
+imgui/imgui_impl_opengl3.s: imgui/imgui_impl_opengl3.cpp.s
+.PHONY : imgui/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : imgui/imgui_impl_opengl3.cpp.s
+
+imgui/imgui_tables.obj: imgui/imgui_tables.cpp.obj
+.PHONY : imgui/imgui_tables.obj
+
+# target to build an object file
+imgui/imgui_tables.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj
+.PHONY : imgui/imgui_tables.cpp.obj
+
+imgui/imgui_tables.i: imgui/imgui_tables.cpp.i
+.PHONY : imgui/imgui_tables.i
+
+# target to preprocess a source file
+imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.i
+.PHONY : imgui/imgui_tables.cpp.i
+
+imgui/imgui_tables.s: imgui/imgui_tables.cpp.s
+.PHONY : imgui/imgui_tables.s
+
+# target to generate assembly for a file
+imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.s
+.PHONY : imgui/imgui_tables.cpp.s
+
+imgui/imgui_widgets.obj: imgui/imgui_widgets.cpp.obj
+.PHONY : imgui/imgui_widgets.obj
+
+# target to build an object file
+imgui/imgui_widgets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj
+.PHONY : imgui/imgui_widgets.cpp.obj
+
+imgui/imgui_widgets.i: imgui/imgui_widgets.cpp.i
+.PHONY : imgui/imgui_widgets.i
+
+# target to preprocess a source file
+imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.i
+.PHONY : imgui/imgui_widgets.cpp.i
+
+imgui/imgui_widgets.s: imgui/imgui_widgets.cpp.s
+.PHONY : imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Aplikacja.dir\build.make CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.s
+.PHONY : imgui/imgui_widgets.cpp.s
 
 src/WindowsMonitor.obj: src/WindowsMonitor.cpp.obj
 .PHONY : src/WindowsMonitor.obj
@@ -185,6 +329,24 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Aplikacja
+	@echo ... imgui/imgui.obj
+	@echo ... imgui/imgui.i
+	@echo ... imgui/imgui.s
+	@echo ... imgui/imgui_draw.obj
+	@echo ... imgui/imgui_draw.i
+	@echo ... imgui/imgui_draw.s
+	@echo ... imgui/imgui_impl_glfw.obj
+	@echo ... imgui/imgui_impl_glfw.i
+	@echo ... imgui/imgui_impl_glfw.s
+	@echo ... imgui/imgui_impl_opengl3.obj
+	@echo ... imgui/imgui_impl_opengl3.i
+	@echo ... imgui/imgui_impl_opengl3.s
+	@echo ... imgui/imgui_tables.obj
+	@echo ... imgui/imgui_tables.i
+	@echo ... imgui/imgui_tables.s
+	@echo ... imgui/imgui_widgets.obj
+	@echo ... imgui/imgui_widgets.i
+	@echo ... imgui/imgui_widgets.s
 	@echo ... src/WindowsMonitor.obj
 	@echo ... src/WindowsMonitor.i
 	@echo ... src/WindowsMonitor.s

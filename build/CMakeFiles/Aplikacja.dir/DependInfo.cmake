@@ -8,8 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "V:/CPP/SystemMonitor/src/WindowsMonitor.cpp" "CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj.d"
-  "V:/CPP/SystemMonitor/src/main.cpp" "CMakeFiles/Aplikacja.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/src/main.cpp.obj.d"
+  "S:/ProjectsVS/SystemMonitor/imgui/imgui.cpp" "CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj.d"
+  "S:/ProjectsVS/SystemMonitor/imgui/imgui_draw.cpp" "CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj.d"
+  "S:/ProjectsVS/SystemMonitor/imgui/imgui_impl_glfw.cpp" "CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj.d"
+  "S:/ProjectsVS/SystemMonitor/imgui/imgui_impl_opengl3.cpp" "CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj.d"
+  "S:/ProjectsVS/SystemMonitor/imgui/imgui_tables.cpp" "CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj.d"
+  "S:/ProjectsVS/SystemMonitor/imgui/imgui_widgets.cpp" "CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj.d"
+  "S:/ProjectsVS/SystemMonitor/src/WindowsMonitor.cpp" "CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj.d"
+  "S:/ProjectsVS/SystemMonitor/src/main.cpp" "CMakeFiles/Aplikacja.dir/src/main.cpp.obj" "gcc" "CMakeFiles/Aplikacja.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = V:\CPP\SystemMonitor
+CMAKE_SOURCE_DIR = S:\ProjectsVS\SystemMonitor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = V:\CPP\SystemMonitor\build
+CMAKE_BINARY_DIR = S:\ProjectsVS\SystemMonitor\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Aplikacja.dir/depend.make
@@ -73,49 +73,152 @@ CMakeFiles/Aplikacja.dir/codegen:
 
 CMakeFiles/Aplikacja.dir/src/main.cpp.obj: CMakeFiles/Aplikacja.dir/flags.make
 CMakeFiles/Aplikacja.dir/src/main.cpp.obj: CMakeFiles/Aplikacja.dir/includes_CXX.rsp
-CMakeFiles/Aplikacja.dir/src/main.cpp.obj: V:/CPP/SystemMonitor/src/main.cpp
+CMakeFiles/Aplikacja.dir/src/main.cpp.obj: S:/ProjectsVS/SystemMonitor/src/main.cpp
 CMakeFiles/Aplikacja.dir/src/main.cpp.obj: CMakeFiles/Aplikacja.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=V:\CPP\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Aplikacja.dir/src/main.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/src/main.cpp.obj -MF CMakeFiles\Aplikacja.dir\src\main.cpp.obj.d -o CMakeFiles\Aplikacja.dir\src\main.cpp.obj -c V:\CPP\SystemMonitor\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\ProjectsVS\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Aplikacja.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/src/main.cpp.obj -MF CMakeFiles\Aplikacja.dir\src\main.cpp.obj.d -o CMakeFiles\Aplikacja.dir\src\main.cpp.obj -c S:\ProjectsVS\SystemMonitor\src\main.cpp
 
 CMakeFiles/Aplikacja.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Aplikacja.dir/src/main.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E V:\CPP\SystemMonitor\src\main.cpp > CMakeFiles\Aplikacja.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\ProjectsVS\SystemMonitor\src\main.cpp > CMakeFiles\Aplikacja.dir\src\main.cpp.i
 
 CMakeFiles/Aplikacja.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Aplikacja.dir/src/main.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S V:\CPP\SystemMonitor\src\main.cpp -o CMakeFiles\Aplikacja.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\ProjectsVS\SystemMonitor\src\main.cpp -o CMakeFiles\Aplikacja.dir\src\main.cpp.s
 
 CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj: CMakeFiles/Aplikacja.dir/flags.make
 CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj: CMakeFiles/Aplikacja.dir/includes_CXX.rsp
-CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj: V:/CPP/SystemMonitor/src/WindowsMonitor.cpp
+CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj: S:/ProjectsVS/SystemMonitor/src/WindowsMonitor.cpp
 CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj: CMakeFiles/Aplikacja.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=V:\CPP\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj -MF CMakeFiles\Aplikacja.dir\src\WindowsMonitor.cpp.obj.d -o CMakeFiles\Aplikacja.dir\src\WindowsMonitor.cpp.obj -c V:\CPP\SystemMonitor\src\WindowsMonitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\ProjectsVS\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj -MF CMakeFiles\Aplikacja.dir\src\WindowsMonitor.cpp.obj.d -o CMakeFiles\Aplikacja.dir\src\WindowsMonitor.cpp.obj -c S:\ProjectsVS\SystemMonitor\src\WindowsMonitor.cpp
 
 CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.i"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E V:\CPP\SystemMonitor\src\WindowsMonitor.cpp > CMakeFiles\Aplikacja.dir\src\WindowsMonitor.cpp.i
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\ProjectsVS\SystemMonitor\src\WindowsMonitor.cpp > CMakeFiles\Aplikacja.dir\src\WindowsMonitor.cpp.i
 
 CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.s"
-	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S V:\CPP\SystemMonitor\src\WindowsMonitor.cpp -o CMakeFiles\Aplikacja.dir\src\WindowsMonitor.cpp.s
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\ProjectsVS\SystemMonitor\src\WindowsMonitor.cpp -o CMakeFiles\Aplikacja.dir\src\WindowsMonitor.cpp.s
+
+CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj: CMakeFiles/Aplikacja.dir/flags.make
+CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj: CMakeFiles/Aplikacja.dir/includes_CXX.rsp
+CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj: S:/ProjectsVS/SystemMonitor/imgui/imgui.cpp
+CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj: CMakeFiles/Aplikacja.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\ProjectsVS\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj -MF CMakeFiles\Aplikacja.dir\imgui\imgui.cpp.obj.d -o CMakeFiles\Aplikacja.dir\imgui\imgui.cpp.obj -c S:\ProjectsVS\SystemMonitor\imgui\imgui.cpp
+
+CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\ProjectsVS\SystemMonitor\imgui\imgui.cpp > CMakeFiles\Aplikacja.dir\imgui\imgui.cpp.i
+
+CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\ProjectsVS\SystemMonitor\imgui\imgui.cpp -o CMakeFiles\Aplikacja.dir\imgui\imgui.cpp.s
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj: CMakeFiles/Aplikacja.dir/flags.make
+CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj: CMakeFiles/Aplikacja.dir/includes_CXX.rsp
+CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj: S:/ProjectsVS/SystemMonitor/imgui/imgui_draw.cpp
+CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj: CMakeFiles/Aplikacja.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\ProjectsVS\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj -MF CMakeFiles\Aplikacja.dir\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\Aplikacja.dir\imgui\imgui_draw.cpp.obj -c S:\ProjectsVS\SystemMonitor\imgui\imgui_draw.cpp
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\ProjectsVS\SystemMonitor\imgui\imgui_draw.cpp > CMakeFiles\Aplikacja.dir\imgui\imgui_draw.cpp.i
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\ProjectsVS\SystemMonitor\imgui\imgui_draw.cpp -o CMakeFiles\Aplikacja.dir\imgui\imgui_draw.cpp.s
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj: CMakeFiles/Aplikacja.dir/flags.make
+CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj: CMakeFiles/Aplikacja.dir/includes_CXX.rsp
+CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj: S:/ProjectsVS/SystemMonitor/imgui/imgui_tables.cpp
+CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj: CMakeFiles/Aplikacja.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\ProjectsVS\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj -MF CMakeFiles\Aplikacja.dir\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\Aplikacja.dir\imgui\imgui_tables.cpp.obj -c S:\ProjectsVS\SystemMonitor\imgui\imgui_tables.cpp
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\ProjectsVS\SystemMonitor\imgui\imgui_tables.cpp > CMakeFiles\Aplikacja.dir\imgui\imgui_tables.cpp.i
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\ProjectsVS\SystemMonitor\imgui\imgui_tables.cpp -o CMakeFiles\Aplikacja.dir\imgui\imgui_tables.cpp.s
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj: CMakeFiles/Aplikacja.dir/flags.make
+CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj: CMakeFiles/Aplikacja.dir/includes_CXX.rsp
+CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj: S:/ProjectsVS/SystemMonitor/imgui/imgui_widgets.cpp
+CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj: CMakeFiles/Aplikacja.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\ProjectsVS\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\Aplikacja.dir\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\Aplikacja.dir\imgui\imgui_widgets.cpp.obj -c S:\ProjectsVS\SystemMonitor\imgui\imgui_widgets.cpp
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\ProjectsVS\SystemMonitor\imgui\imgui_widgets.cpp > CMakeFiles\Aplikacja.dir\imgui\imgui_widgets.cpp.i
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\ProjectsVS\SystemMonitor\imgui\imgui_widgets.cpp -o CMakeFiles\Aplikacja.dir\imgui\imgui_widgets.cpp.s
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/Aplikacja.dir/flags.make
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/Aplikacja.dir/includes_CXX.rsp
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj: S:/ProjectsVS/SystemMonitor/imgui/imgui_impl_glfw.cpp
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/Aplikacja.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\ProjectsVS\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj -MF CMakeFiles\Aplikacja.dir\imgui\imgui_impl_glfw.cpp.obj.d -o CMakeFiles\Aplikacja.dir\imgui\imgui_impl_glfw.cpp.obj -c S:\ProjectsVS\SystemMonitor\imgui\imgui_impl_glfw.cpp
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\ProjectsVS\SystemMonitor\imgui\imgui_impl_glfw.cpp > CMakeFiles\Aplikacja.dir\imgui\imgui_impl_glfw.cpp.i
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\ProjectsVS\SystemMonitor\imgui\imgui_impl_glfw.cpp -o CMakeFiles\Aplikacja.dir\imgui\imgui_impl_glfw.cpp.s
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/Aplikacja.dir/flags.make
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/Aplikacja.dir/includes_CXX.rsp
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj: S:/ProjectsVS/SystemMonitor/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/Aplikacja.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=S:\ProjectsVS\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\Aplikacja.dir\imgui\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\Aplikacja.dir\imgui\imgui_impl_opengl3.cpp.obj -c S:\ProjectsVS\SystemMonitor\imgui\imgui_impl_opengl3.cpp
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E S:\ProjectsVS\SystemMonitor\imgui\imgui_impl_opengl3.cpp > CMakeFiles\Aplikacja.dir\imgui\imgui_impl_opengl3.cpp.i
+
+CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S S:\ProjectsVS\SystemMonitor\imgui\imgui_impl_opengl3.cpp -o CMakeFiles\Aplikacja.dir\imgui\imgui_impl_opengl3.cpp.s
 
 # Object files for target Aplikacja
 Aplikacja_OBJECTS = \
 "CMakeFiles/Aplikacja.dir/src/main.cpp.obj" \
-"CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj"
+"CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj" \
+"CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj" \
+"CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj" \
+"CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj" \
+"CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj" \
+"CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj" \
+"CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj"
 
 # External object files for target Aplikacja
 Aplikacja_EXTERNAL_OBJECTS =
 
 Aplikacja.exe: CMakeFiles/Aplikacja.dir/src/main.cpp.obj
 Aplikacja.exe: CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj
+Aplikacja.exe: CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj
+Aplikacja.exe: CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj
+Aplikacja.exe: CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj
+Aplikacja.exe: CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj
+Aplikacja.exe: CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj
+Aplikacja.exe: CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj
 Aplikacja.exe: CMakeFiles/Aplikacja.dir/build.make
+Aplikacja.exe: C:/msys64/ucrt64/lib/libglfw3.dll.a
 Aplikacja.exe: CMakeFiles/Aplikacja.dir/linkLibs.rsp
 Aplikacja.exe: CMakeFiles/Aplikacja.dir/objects1.rsp
 Aplikacja.exe: CMakeFiles/Aplikacja.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=V:\CPP\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Aplikacja.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=S:\ProjectsVS\SystemMonitor\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Aplikacja.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Aplikacja.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,6 +230,6 @@ CMakeFiles/Aplikacja.dir/clean:
 .PHONY : CMakeFiles/Aplikacja.dir/clean
 
 CMakeFiles/Aplikacja.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" V:\CPP\SystemMonitor V:\CPP\SystemMonitor V:\CPP\SystemMonitor\build V:\CPP\SystemMonitor\build V:\CPP\SystemMonitor\build\CMakeFiles\Aplikacja.dir\DependInfo.cmake "--color=$(COLOR)" Aplikacja
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" S:\ProjectsVS\SystemMonitor S:\ProjectsVS\SystemMonitor S:\ProjectsVS\SystemMonitor\build S:\ProjectsVS\SystemMonitor\build S:\ProjectsVS\SystemMonitor\build\CMakeFiles\Aplikacja.dir\DependInfo.cmake "--color=$(COLOR)" Aplikacja
 .PHONY : CMakeFiles/Aplikacja.dir/depend
 

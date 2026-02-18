@@ -1,14 +1,50 @@
 [
 {
-  "directory": "V:/CPP/SystemMonitor/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -o CMakeFiles\\Aplikacja.dir\\src\\main.cpp.obj -c V:\\CPP\\SystemMonitor\\src\\main.cpp",
-  "file": "V:/CPP/SystemMonitor/src/main.cpp",
+  "directory": "S:/ProjectsVS/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Aplikacja.dir\\src\\main.cpp.obj -c S:\\ProjectsVS\\SystemMonitor\\src\\main.cpp",
+  "file": "S:/ProjectsVS/SystemMonitor/src/main.cpp",
   "output": "CMakeFiles/Aplikacja.dir/src/main.cpp.obj"
 },
 {
-  "directory": "V:/CPP/SystemMonitor/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -o CMakeFiles\\Aplikacja.dir\\src\\WindowsMonitor.cpp.obj -c V:\\CPP\\SystemMonitor\\src\\WindowsMonitor.cpp",
-  "file": "V:/CPP/SystemMonitor/src/WindowsMonitor.cpp",
+  "directory": "S:/ProjectsVS/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Aplikacja.dir\\src\\WindowsMonitor.cpp.obj -c S:\\ProjectsVS\\SystemMonitor\\src\\WindowsMonitor.cpp",
+  "file": "S:/ProjectsVS/SystemMonitor/src/WindowsMonitor.cpp",
   "output": "CMakeFiles/Aplikacja.dir/src/WindowsMonitor.cpp.obj"
+},
+{
+  "directory": "S:/ProjectsVS/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Aplikacja.dir\\imgui\\imgui.cpp.obj -c S:\\ProjectsVS\\SystemMonitor\\imgui\\imgui.cpp",
+  "file": "S:/ProjectsVS/SystemMonitor/imgui/imgui.cpp",
+  "output": "CMakeFiles/Aplikacja.dir/imgui/imgui.cpp.obj"
+},
+{
+  "directory": "S:/ProjectsVS/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Aplikacja.dir\\imgui\\imgui_draw.cpp.obj -c S:\\ProjectsVS\\SystemMonitor\\imgui\\imgui_draw.cpp",
+  "file": "S:/ProjectsVS/SystemMonitor/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/Aplikacja.dir/imgui/imgui_draw.cpp.obj"
+},
+{
+  "directory": "S:/ProjectsVS/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Aplikacja.dir\\imgui\\imgui_tables.cpp.obj -c S:\\ProjectsVS\\SystemMonitor\\imgui\\imgui_tables.cpp",
+  "file": "S:/ProjectsVS/SystemMonitor/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/Aplikacja.dir/imgui/imgui_tables.cpp.obj"
+},
+{
+  "directory": "S:/ProjectsVS/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Aplikacja.dir\\imgui\\imgui_widgets.cpp.obj -c S:\\ProjectsVS\\SystemMonitor\\imgui\\imgui_widgets.cpp",
+  "file": "S:/ProjectsVS/SystemMonitor/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/Aplikacja.dir/imgui/imgui_widgets.cpp.obj"
+},
+{
+  "directory": "S:/ProjectsVS/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Aplikacja.dir\\imgui\\imgui_impl_glfw.cpp.obj -c S:\\ProjectsVS\\SystemMonitor\\imgui\\imgui_impl_glfw.cpp",
+  "file": "S:/ProjectsVS/SystemMonitor/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/Aplikacja.dir/imgui/imgui_impl_glfw.cpp.obj"
+},
+{
+  "directory": "S:/ProjectsVS/SystemMonitor/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DGLFW_DLL @CMakeFiles/Aplikacja.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\Aplikacja.dir\\imgui\\imgui_impl_opengl3.cpp.obj -c S:\\ProjectsVS\\SystemMonitor\\imgui\\imgui_impl_opengl3.cpp",
+  "file": "S:/ProjectsVS/SystemMonitor/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/Aplikacja.dir/imgui/imgui_impl_opengl3.cpp.obj"
 }
 ]

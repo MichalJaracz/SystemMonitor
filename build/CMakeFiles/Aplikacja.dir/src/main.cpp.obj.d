@@ -1,5 +1,5 @@
 CMakeFiles/Aplikacja.dir/src/main.cpp.obj: \
- V:\CPP\SystemMonitor\src\main.cpp \
+ S:\ProjectsVS\SystemMonitor\src\main.cpp \
  C:/msys64/ucrt64/include/c++/15.2.0/iostream \
  C:/msys64/ucrt64/include/c++/15.2.0/bits/requires_hosted.h \
  C:/msys64/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -168,14 +168,23 @@ CMakeFiles/Aplikacja.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/c++/15.2.0/backward/auto_ptr.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/glue_memory_defs.h \
  C:/msys64/ucrt64/include/c++/15.2.0/pstl/execution_defs.h \
- V:/CPP/SystemMonitor/include/WindowsMonitor.h \
- V:/CPP/SystemMonitor/include/ISystemMonitor.h \
- C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/sdkddkver.h \
- C:/msys64/ucrt64/include/excpt.h \
+ C:/msys64/ucrt64/include/GLFW/glfw3.h C:/msys64/ucrt64/include/GL/gl.h \
+ S:/ProjectsVS/SystemMonitor/imgui/imgui.h \
+ S:/ProjectsVS/SystemMonitor/imgui/imconfig.h \
+ C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
+ C:/msys64/ucrt64/include/float.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
  C:/msys64/ucrt64/include/stdarg.h \
  C:/msys64/ucrt64/include/_mingw_stdarg.h \
- C:/msys64/ucrt64/include/windef.h \
+ C:/msys64/ucrt64/include/string.h \
+ C:/msys64/ucrt64/include/sec_api/string_s.h \
+ C:/msys64/ucrt64/include/assert.h \
+ S:/ProjectsVS/SystemMonitor/imgui/imgui_impl_glfw.h \
+ S:/ProjectsVS/SystemMonitor/imgui/imgui_impl_opengl3.h \
+ S:/ProjectsVS/SystemMonitor/include/WindowsMonitor.h \
+ S:/ProjectsVS/SystemMonitor/include/ISystemMonitor.h \
+ C:/msys64/ucrt64/include/windows.h C:/msys64/ucrt64/include/sdkddkver.h \
+ C:/msys64/ucrt64/include/excpt.h C:/msys64/ucrt64/include/windef.h \
  C:/msys64/ucrt64/include/winapifamily.h \
  C:/msys64/ucrt64/include/minwindef.h \
  C:/msys64/ucrt64/include/specstrings.h C:/msys64/ucrt64/include/sal.h \
@@ -185,8 +194,6 @@ CMakeFiles/Aplikacja.dir/src/main.cpp.obj: \
  C:/msys64/ucrt64/include/apiset.h \
  C:/msys64/ucrt64/include/psdk_inc/intrin-impl.h \
  C:/msys64/ucrt64/include/basetsd.h C:/msys64/ucrt64/include/guiddef.h \
- C:/msys64/ucrt64/include/string.h \
- C:/msys64/ucrt64/include/sec_api/string_s.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86gprintrin.h \
  C:/msys64/ucrt64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/ia32intrin.h \
